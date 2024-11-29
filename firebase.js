@@ -1,10 +1,10 @@
 import firebase from "firebase";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAYlfs5WWyUVv9NSQf1hDA0uXCIAX7KByY",
-  authDomain: "website-968c3.firebaseapp.com",
-  projectId: "website-968c3",
-  storageBucket: "website-968c3.firebasestorage.app",
-  messagingSenderId: "818244889963",
-  appId: "1:818244889963:web:dd608ed3149d935002f02e"
+  apiKey: process.env.FB_API_KEY,
+  authDomain: process.env.FB_AUTH_DOMAIN,
+  projectId: process.env.FB_PROJECT_ID,
+  storageBucket: process.env.FB_STORAGE_BUCKET,
+  messagingSenderId: process.env.FB_MSG_SENDER_ID,
+  appId: process.env.FB_API_ID
 };
